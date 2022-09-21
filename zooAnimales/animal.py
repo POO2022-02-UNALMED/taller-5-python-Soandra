@@ -22,7 +22,7 @@ class Animal:
 		from zooAnimales.ave import Ave
 		from zooAnimales.pez import Pez
 
-		return f"Mamiferos : {Mamifero.cantidadMamiferos()}\nAves : {Ave.cantidadAves()}\nReptiles : {Reptil.cantidadReptiles()}\nPeces : {Pez.cantidadPeces}\nAnfibios : {Anfibio.cantidadAnfibios}"
+		return f"Mamiferos : {Mamifero.cantidadMamiferos()}\nAves : {Ave.cantidadAves()}\nReptiles : {Reptil.cantidadReptiles()}\nPeces : {Pez.cantidadPeces()}\nAnfibios : {Anfibio.cantidadAnfibios()}"
 
 	def toString(self):
 		if self._zona != None:
